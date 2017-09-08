@@ -12,7 +12,7 @@ pipeline {
 
         stage('UI Tests') {
             steps {
-                sh './run-test.sh'
+                sh 'run-test.sh'
             }
             
         }
